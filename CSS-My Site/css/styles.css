@@ -1,0 +1,170 @@
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.middle-container {
+  background-color: #EAF6F6;
+
+}
+
+  hr {
+    background-color: #EAF6F6;
+    margin-bottom: 0;
+    height: 0;
+    width: 5%;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+  }
+
+
+.bottom-container {
+padding:45px 0 30px;
+ background-color: #66BFBF;
+
+}
+
+h1 {
+  /*font-size:90px;*/
+  /*font-size:562.5%;*/
+  /*same thing*/
+  /*font-size:5.625em; - how much bigger it will be then M*/
+  font-size: 5.625rem;
+  /*- ingnor all of the parent settings*/
+  margin: 50px
+    /*top*/
+    auto
+    /*right*/
+    0
+    /*bottom*/
+    auto
+    /*left*/
+  ;
+  font-family: 'Sacramento', cursive;
+  color: #0093AB;
+  /*line-height: 200%;*/
+  /*width:10%;
+  margin:0 auto 0 auto*/
+  /*; */
+  /*Center element*/
+  /* margin:0 auto; give same result*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*16px is normal font*/
+  color: #0093AB;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  /* Center elemnt*/
+  font-family: 'Merriweather', serif;
+}
+
+.pro {
+    position: relative;
+  text-decoration: underline;
+}
+
+.skill-row{
+  width:50%;
+    /*margin: auto;/*sets the page in the center*/
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 200%;
+}
+
+.prototype{
+  width:25%;
+  height: 60%;
+  float: left; /*make the test go to the left of the image*/
+  margin-right: 30px;
+}
+.programming{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+/*.clear-test{
+  /*clear left;*/ /*will bring this test to the normal position(not float)*/
+/*}*/
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.Site{
+  color:#EAF6F6;
+  padding: 20px 0 0;
+
+}
+.contact-massege{
+  margin:10px auto 60px;
+  background-color: #EAF6F6;
+}
+
+
+.contact-me{
+  background-color: #EAF6F6;
+  padding:0 0 60px 0;
+}
+.get-in-touch{
+  background-color: #EAF6F6;
+  margin-top: 0;
+  padding: 60px 0 30px;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:0 20px;
+  text-decoration: none;
+  font-size: 24px;
+}
+a:hover{
+  color:#EAF6F6;
+}
